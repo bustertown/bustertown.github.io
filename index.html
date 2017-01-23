@@ -81,7 +81,17 @@
 						
 						<label><h3>Page Range</h3>
 						<div class="list-control">
-							<input class="mdl-slider mdl-js-slider" type="range" min="1" max="100" value="0" tabindex="0">
+							
+							<div class="mdl-textfield mdl-js-textfield">
+						    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="page-begin">
+						    <label class="mdl-textfield__label" for="page-begin">Begin Page Number</label>
+						    <span class="mdl-textfield__error">Input is not a number!</span>
+						  </div>
+						  <div class="mdl-textfield mdl-js-textfield">
+						    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="page-end">
+						    <label class="mdl-textfield__label" for="page-end">End Page Number</label>
+						    <span class="mdl-textfield__error">Input is not a number!</span>
+						  </div>
 						</div>
 							
 							<!-- <input type="text" name="startPage" size="5" value="1"> –
@@ -163,8 +173,8 @@
 						  <input type="radio" id="option-1" class="mdl-radio__button" name="runtype" value="1" checked>
 						  <span class="mdl-radio__label">with COMET</span>
 						</label>
-						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
-						  <input type="radio" id="option-1" class="mdl-radio__button" name="runtype" value="1">
+						<label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+						  <input type="radio" id="option-2" class="mdl-radio__button" name="runtype" value="1">
 						  <span class="mdl-radio__label">without COMET</span>
 						</label>
 
