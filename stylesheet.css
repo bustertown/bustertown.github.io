@@ -8,12 +8,18 @@ label {
 }
 
 .list-control {
-	max-width: 20%; 
+	/*max-width: 20%; */
+}
+
+p {
+	display: inline;
+	
 }
 
 .wrapper {
 	padding: 1%;
-	/*text-align: center;*/
+	text-align: center;
+	align-items: center;
 }
 
 ul {
