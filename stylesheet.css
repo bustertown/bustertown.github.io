@@ -1,0 +1,16 @@
+/*body {
+	font-family: sans-serif;
+	margin-left: 2em;
+}*/
+
+label {
+	display: block;
+}
+
+.list-control {
+	max-width: 20%; 
+}
+
+.wrapper {
+	padding: 1%;
+}
